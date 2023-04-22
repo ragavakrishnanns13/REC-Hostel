@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" href="/Login/images/favicon.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REC Hostel | Home</title>
+    <link rel="stylesheet" href="Login/css/style.css">
+</head>
+<body>
+    <h1 class="headbed"><b>REC HOSTEL</b></h1>
+    <div>
+       <img class="homelogo" src="/Login/images/logo.png" alt="">
+    </div>
+    <a href="./Login/index.html"><button class="btn btn-primary logoutbtn" type="submit">Log Out</button></a>    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navnavnav">
+        <div class="container-fluid navnav">
+            <a class="navbar-brand" href="#announcement">Announcements</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#attendance">Attendance</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>        <div class="container-fluid">
+            <a class="navbar-brand" href="#feedetails">Fee Details</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>        
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#comreg">Complaints</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>   
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#roommanagement">Room Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>      
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#housekeeping">Housekeeping</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>        
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#food">Food</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>
+      </nav>
+      <div>
+        <img src="Login/images/IMG_7148.jpg" class="homeimage" lt="" >
+      </div>
+      <div class="announcement" id="announcement">
+        <h2><b><center>Announcement</center></b></h2>
+        <br>
+        <p><center>Leave from 07.04.2023 to 09.04.2023</center></p>
+        </div>
+        <div class="announcement" id="attendance">
+          <h2><b><center>Your Attendance Percentage</center></b></h2>
+          <br>
+            <h1><b><center>76%</center></b></h1>
+          </div>
+          <div class="announcement" id="feedetails">
+            <h2><b><center>Fee Details</center></b></h2>
+            <br>
+              <h1><b><center>Fees Balance: &#8377 1,20,000</center></b></h1><br>
+              <h1><b><center>Due date: 30 April 2023</center></b></h1>
+            </div>
+            <div class="announcement" id="comreg" >
+              <h2><center><b>Register Your Complaints</b></center></h2>
+              <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                 <div id="nameyy"> <input type="text" name="name" id="full-name nameyy" placeholder="First and Last" required=""></div>
+                  <label for="email-address">Email Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                  <label for="telephone">Mobile Number</label>
+                  <input type="telephone" name="telephone" id="telephone" placeholder="xxxxxxxxxx">
+                  <label for="complaint">Complaint</label>
+                  <textarea rows="6" name="complaint" id="complaint" placeholder="Type your complaint..." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+                </fieldset>
+                <input type="submit" value="File Complaint" onclick="compfn()">
+              </form>
+            </div>
+            <div class="announcement" id="housekeeping">
+              <h2><b><center>Housekeeping</center></b></h2>
+              <label for="" ></label>
+              <center><input type="text" placeholder="Enter room number"><br><br></center>
+              <center><button id="reqbutton" onclick="alertfn()">Request Housekeeping</button></center>
+            </div>
+         <div class="announcement foodsch" id="food">
+          <h2><b><center>Food Schedule</center></b></h2><br>
+          <table style="width:100%">
+            <tr>
+              <th>DAYS</th>
+              <th>Break-fast</th>
+              <th>Lunch</th>
+              <th>Snacks</th>
+              <th>Dinner</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>Idli- pongal - vada</td>
+              <td>Meals - 2 veggies - rasam - curd</td>
+              <td>vada - gulabjamun</td>
+              <td>idli - vadacurry</td>
+            </tr>
+              <tr>
+              <td>Tuesday</td>
+              <td>Dosa - sambhar</td>
+              <td>Sambhar rice - curdrice - rasam </td>
+              <td>Badushah - Bonda</td>
+              <td>chappathi - Paneer gravy - egg</td>
+            </tr>
+              <tr>
+              <td>Wednesday</td>
+              <td>Idli- onion chutney</td>
+              <td>Meals - 2 veggies - rasam - curd</td>
+              <td>kesari - onion bonda</td>
+              <td>dosa - coconut chutney</td>
+            </tr>  <tr>
+              <td>Thursday</td>
+              <td>Idli- pongal - vada</td>
+              <td>tamarind rice - curdrice - payasam</td>
+              <td>Mysurpa - channa</td>
+              <td>Parotta - egg - veg kurma</td>
+            </tr>
+              <tr>
+              <td>Friday</td>
+              <td>masal dosa - vadacurry</td>
+              <td>Meals - 2 veggies - rasam - curd</td>
+              <td>Aloo bonda - ladoo</td>
+              <td>Dosa - lemon rice</td>
+            </tr>
+              <tr>
+              <td>Saturday</td>
+              <td>Dosa - potato - groundnut chutney</td>
+              <td>chapaati - channa masala</td>
+              <td>bread halwa - bajji</td>
+              <td>noodles - briyani</td>
+            </tr>
+              <tr>
+              <td>Sunday</td>
+              <td>Poori - potatao masala - bread</td>
+              <td>Briyani - egg - raita</td>
+              <td>peanuts - boondi</td>
+              <td>Dosa - sambhar</td>
+            </tr>
+           
+          </table>
+          </div>
+          <div id="announcement" class="announcement">
+            <center>
+              <h2>Developed By</h2><br>
+              <h3 class="devby">Ragava Krishnan N S | 210701201 | Rajalakshmi Engineering College, Chennai</h3>
+            </center>
+          </div>
+          <div class="announcement" id="roommanagement">
+            <h2><b><center>Room Management</center></b></h2>
+            <br>
+            <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+              <fieldset id="fs-frm-inputs">
+              <label for="full-name">Name</label>
+              <div id="nameyy"> <input type="text" name="name" id="full-name nameyy" placeholder="Full Name" required=""></div>
+              <label for="email-address">Depeartment</label>
+              <input type="text" name="_replyto" id="email-address" placeholder="CSE / AIML / BT ..." required="">
+              <label for="email-address">Year of study</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="I / II / III / IV" required="">
+              <label for="telephone">Mobile Number</label>
+              <input type="telephone" name="telephone" id="telephone" placeholder="xxxxxxxxxx">
+              <label for="email-address">Type of Room</label>
+              <input type="text" name="_replyto" id="email-address" placeholder="AC / NON-AC" required="">
+              </fieldset>
+              <input type="submit" value="Allocate Room" onclick="roomfn()">
+            </form>
+          </div>
+          <div id="announcement" class="announcement">
+            <center>
+              <h2>Developed By</h2><br>
+              <h3 class="devby">Ragava Krishnan N S | 210701201 | Rajalakshmi Engineering College, Chennai</h3>
+            </center>
+            </div>
+            
+  <script> 
+  function alertfn(){
+	alert("Housekeeping requested, cleaners will reach the room in 10 Minutes.");}
+  function compfn(){
+	alert("Your complaint has been registered, necessary action will be taken ASAP!");}
+  function roomfn(){
+	alert("Your allocated room number is 101, first floor, B Block.");}
+  </script>
+</body>
+</html>
